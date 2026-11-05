@@ -253,7 +253,7 @@ The Pi 3B+ has an Arm Cortex-A53 CPU and **1 GB RAM**. The [Arm ExecuTorch cours
 | --- | --- | --- |
 | Maher | ML engineering | Pretrained models, evaluation, export and model comparison |
 | Soumya | Evaluation and integration | Input pipeline, reporting, documentation and demonstration |
-| Third teammate | Embedded deployment | Raspberry Pi OS, native runtime, performance profiling and compatibility |
+| Parth | Embedded deployment | Raspberry Pi OS, native runtime, performance profiling and compatibility |
 
 Responsibilities are a proposed division of work and can be adjusted as the project progresses.
 
