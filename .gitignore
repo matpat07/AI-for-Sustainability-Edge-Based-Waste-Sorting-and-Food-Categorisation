@@ -3,3 +3,36 @@
 dataset/*
 .venv/
 __pycache__/
+
+# Local data, caches, weights and evaluation artifacts
+data/
+datasets/
+results/
+weights/
+checkpoints/
+.cache/
+.hf_cache/
+venv/
+env/
+.venv-*/
+*.py[cod]
+*.pth
+*.pt
+*.onnx
+*.safetensors
+*.jpg
+*.jpeg
+*.jfif
+*.png
+*.webp
+*.bmp
+*.tif
+*.tiff
+.pytest_cache/
+# Exported ExecuTorch models
+*.pte
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example

@@ -1,1 +1,0 @@
-# AI-for-Sustainability-Edge-Based-Waste-Sorting-and-Food-Categorisation
