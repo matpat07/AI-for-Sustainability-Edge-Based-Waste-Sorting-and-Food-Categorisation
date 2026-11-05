@@ -1,0 +1,5 @@
+/backup
+/executorch
+dataset/*
+.venv/
+__pycache__/
