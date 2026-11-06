@@ -124,6 +124,7 @@ def main():
     data_dir = args.data_dir
     if not data_dir:
         candidates = [
+            "dataset/waste_4class",
             "dataset/dataset-resized/dataset-resized",
             "dataset/dataset-resized",
             "test_images",

@@ -1,6 +1,4 @@
-cardboard
+biodegradable
 glass
 metal
-paper
 plastic
-trash

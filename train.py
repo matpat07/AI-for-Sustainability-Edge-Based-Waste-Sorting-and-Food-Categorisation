@@ -2,15 +2,15 @@
 """
 train.py (Waste Classification Transfer Learning & ExecuTorch Export)
 
-1. Loads a waste image dataset (TrashNet 6-class or Kaggle Waste Images 9-class).
-2. Performs transfer learning with MobileNetV2 (fine-tuning top layers).
-3. Evaluates accuracy on validation split.
-4. Saves PyTorch weights and class labels (labels.txt).
-5. Lowers and exports the fine-tuned model directly to ExecuTorch (.pte) with XNNPACK
-   optimization for edge devices (e.g., Raspberry Pi).
+1. Prepares 4-class waste dataset (glass, biodegradable, plastic, metal).
+2. Performs transfer learning with MobileNetV2 using Intel Core Ultra hardware acceleration.
+3. Evaluates accuracy on held-out validation split.
+4. Saves PyTorch weights (mobilenetv2_waste.pth) and class labels (labels.txt).
+5. Exports the fine-tuned model directly to ExecuTorch (.pte) with XNNPACK optimization.
 """
 
 import argparse
+import json
 import os
 import sys
 from pathlib import Path
@@ -27,31 +27,66 @@ from torch.utils.data import DataLoader, Subset
 from torchvision import datasets, models, transforms
 
 
-def find_default_dataset_dir() -> Path:
-    """Finds available waste dataset directory in order of preference."""
-    candidates = [
-        Path("dataset/dataset-resized/dataset-resized"),
-        Path("dataset/Waste Images"),
-        Path("dataset/waste-images/Waste Images"),
-        Path("dataset/dataset-resized"),
-        Path("trashnet_raw/dataset-resized"),
-    ]
-    for candidate in candidates:
-        if candidate.is_dir():
-            subdirs = [
-                d for d in candidate.iterdir()
-                if d.is_dir() and not d.name.startswith((".", "__"))
-            ]
-            if subdirs:
-                return candidate
-    return candidates[0]
+def setup_4class_dataset() -> Path:
+    """Sets up a clean 4-class waste dataset: glass, biodegradable, plastic, metal."""
+    target_dir = Path("dataset/waste_4class")
+    target_dir.mkdir(parents=True, exist_ok=True)
+
+    mapping = {
+        "biodegradable": [
+            "dataset/Waste Images/Organic_Waste",
+            "dataset/waste-images/Waste Images/Organic_Waste",
+        ],
+        "glass": [
+            "dataset/Waste Images/Glass",
+            "dataset/waste-images/Waste Images/Glass",
+            "dataset/dataset-resized/dataset-resized/glass",
+        ],
+        "metal": [
+            "dataset/Waste Images/Aluminium",
+            "dataset/waste-images/Waste Images/Aluminium",
+            "dataset/dataset-resized/dataset-resized/metal",
+        ],
+        "plastic": [
+            "dataset/Waste Images/Plastics",
+            "dataset/waste-images/Waste Images/Plastics",
+            "dataset/dataset-resized/dataset-resized/plastic",
+        ],
+    }
+
+    for target_class, candidates in mapping.items():
+        link_path = target_dir / target_class
+        if not link_path.exists() and not link_path.is_symlink():
+            for c in candidates:
+                src_path = Path(c).resolve()
+                if src_path.is_dir():
+                    link_path.symlink_to(src_path)
+                    break
+
+    return target_dir
+
+
+def detect_device() -> tuple[torch.device, str]:
+    """Detects available hardware accelerator (Intel XPU, CUDA, or Intel Core Ultra CPU)."""
+    if torch.cuda.is_available():
+        return torch.device("cuda"), f"CUDA GPU: {torch.cuda.get_device_name(0)}"
+
+    if hasattr(torch, "xpu") and torch.xpu.is_available():
+        return torch.device("xpu"), f"Intel XPU/Arc GPU: {torch.xpu.get_device_name(0)}"
+
+    # Multi-threaded Intel Core Ultra CPU execution (AVX2 + VNNI)
+    threads = min(os.cpu_count() or 4, 14)
+    torch.set_num_threads(threads)
+    return torch.device("cpu"), f"Intel Core Ultra CPU ({torch.get_num_threads()} threads, AVX2/oneDNN)"
 
 
 def get_data_loaders(data_dir: Path, batch_size: int = 32, val_split: float = 0.15):
-    """Prepares training and validation DataLoaders with appropriate transforms."""
+    """Prepares training and validation DataLoaders with data augmentation."""
     train_transform = transforms.Compose([
         transforms.Resize((224, 224)),
         transforms.RandomHorizontalFlip(),
+        transforms.RandomRotation(degrees=15),
+        transforms.ColorJitter(brightness=0.1, contrast=0.1),
         transforms.ToTensor(),
         transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),
     ])
@@ -62,20 +97,33 @@ def get_data_loaders(data_dir: Path, batch_size: int = 32, val_split: float = 0.
         transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),
     ])
 
-    # Load dataset twice to apply distinct train/val transforms without side effects
     train_dataset = datasets.ImageFolder(str(data_dir), transform=train_transform)
     val_dataset = datasets.ImageFolder(str(data_dir), transform=val_transform)
 
     class_names = train_dataset.classes
     total_samples = len(train_dataset)
 
-    # Deterministic reproducible split
+    # Deterministic reproducible 85% train / 15% validation split
     torch.manual_seed(42)
     indices = torch.randperm(total_samples).tolist()
     train_count = int((1.0 - val_split) * total_samples)
 
-    train_ds = Subset(train_dataset, indices[:train_count])
-    val_ds = Subset(val_dataset, indices[train_count:])
+    train_indices = indices[:train_count]
+    val_indices = indices[train_count:]
+
+    train_ds = Subset(train_dataset, train_indices)
+    val_ds = Subset(val_dataset, val_indices)
+
+    # Save held-out test split mapping for edge evaluation
+    test_samples = []
+    for idx in val_indices:
+        full_path, class_idx = val_dataset.samples[idx]
+        cls_name = class_names[class_idx]
+        file_name = Path(full_path).name
+        test_samples.append({"rel_path": f"{cls_name}/{file_name}", "class": cls_name})
+
+    with open("test_split.json", "w") as f:
+        json.dump(test_samples, f, indent=2)
 
     train_loader = DataLoader(train_ds, batch_size=batch_size, shuffle=True, num_workers=2)
     val_loader = DataLoader(val_ds, batch_size=batch_size, shuffle=False, num_workers=2)
@@ -84,27 +132,28 @@ def get_data_loaders(data_dir: Path, batch_size: int = 32, val_split: float = 0.
 
 
 def build_model(num_classes: int, device: torch.device) -> nn.Module:
-    """Builds MobileNetV2 with pretrained weights and replaces the classifier head."""
+    """Builds MobileNetV2 with pretrained weights and fine-tuning head."""
     model = models.mobilenet_v2(weights=models.MobileNet_V2_Weights.DEFAULT)
 
-    # Freeze early feature layers so training is fast
+    # Freeze early feature layers
     for param in model.features.parameters():
         param.requires_grad = False
 
-    # Unfreeze the last two inverted residual blocks for higher fine-tuning accuracy
+    # Unfreeze top residual blocks
     for param in model.features[-2:].parameters():
         param.requires_grad = True
 
-    # Replace ImageNet classifier head with target waste classes
+    # Replace classifier head for the target classes
     model.classifier[1] = nn.Linear(model.last_channel, num_classes)
     return model.to(device)
 
 
 def train_model(model, train_loader, val_loader, epochs: int, lr: float, device: torch.device):
-    """Trains the model and evaluates on the validation set."""
+    """Fine-tunes the model with AdamW and CrossEntropyLoss."""
     criterion = nn.CrossEntropyLoss()
     trainable_params = [p for p in model.parameters() if p.requires_grad]
-    optimizer = torch.optim.AdamW(trainable_params, lr=lr)
+    optimizer = torch.optim.AdamW(trainable_params, lr=lr, weight_decay=1e-4)
+    scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=epochs)
 
     for epoch in range(epochs):
         model.train()
@@ -121,6 +170,8 @@ def train_model(model, train_loader, val_loader, epochs: int, lr: float, device:
             correct += (preds == labels).sum().item()
             total += labels.size(0)
 
+        scheduler.step()
+
         # Validation check
         model.eval()
         val_correct, val_total = 0, 0
@@ -134,7 +185,7 @@ def train_model(model, train_loader, val_loader, epochs: int, lr: float, device:
 
         train_acc = (correct / total * 100) if total > 0 else 0.0
         val_acc = (val_correct / val_total * 100) if val_total > 0 else 0.0
-        print(f"Epoch {epoch + 1}/{epochs} | Train Acc: {train_acc:.1f}% | Val Acc: {val_acc:.1f}%")
+        print(f"Epoch {epoch + 1:02d}/{epochs:02d} | Train Acc: {train_acc:>5.2f}% | Val Acc: {val_acc:>5.2f}%")
 
 
 def export_to_executorch(model: nn.Module, output_path: Path):
@@ -162,15 +213,15 @@ def export_to_executorch(model: nn.Module, output_path: Path):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Train waste classification model and export to ExecuTorch.")
+    parser = argparse.ArgumentParser(description="Train 4-class waste classifier (glass, biodegradable, plastic, metal).")
     parser.add_argument(
         "--data-dir",
         type=Path,
-        default=find_default_dataset_dir(),
-        help="Path to dataset directory (defaults to auto-detected waste dataset)",
+        default=None,
+        help="Path to dataset directory (defaults to auto-generated 4-class dataset)",
     )
     parser.add_argument("--epochs", type=int, default=4, help="Number of training epochs (default: 4)")
-    parser.add_argument("--batch-size", type=int, default=32, help="Batch size (default: 32)")
+    parser.add_argument("--batch-size", type=int, default=64, help="Batch size (default: 64)")
     parser.add_argument("--lr", type=float, default=1e-3, help="Learning rate (default: 1e-3)")
     parser.add_argument(
         "--output",
@@ -186,7 +237,12 @@ def main():
     )
     args = parser.parse_args()
 
-    data_dir = args.data_dir
+    # Prepare dataset
+    if args.data_dir is None:
+        data_dir = setup_4class_dataset()
+    else:
+        data_dir = args.data_dir
+
     if not data_dir.is_dir():
         print(f"[!] Error: Dataset directory '{data_dir}' not found.", file=sys.stderr)
         sys.exit(1)
@@ -195,10 +251,10 @@ def main():
     train_loader, val_loader, class_names = get_data_loaders(
         data_dir, batch_size=args.batch_size
     )
-    print(f"[+] Classes found ({len(class_names)}): {class_names}")
+    print(f"[+] Classes ({len(class_names)}): {class_names}")
 
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    print(f"[*] Using device: {device}")
+    device, device_desc = detect_device()
+    print(f"[*] Hardware Accelerator: {device_desc}")
 
     # Build model & transfer learning
     model = build_model(len(class_names), device)

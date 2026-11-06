@@ -1,1522 +1,2454 @@
 [
   {
-    "rel_path": "paper/paper325.jpg",
-    "class": "paper"
+    "rel_path": "glass/R_8848.jpg",
+    "class": "glass"
   },
   {
-    "rel_path": "plastic/plastic196.jpg",
-    "class": "plastic"
-  },
-  {
-    "rel_path": "metal/metal283.jpg",
+    "rel_path": "metal/R_4965.jpg",
     "class": "metal"
   },
   {
-    "rel_path": "cardboard/cardboard10.jpg",
-    "class": "cardboard"
-  },
-  {
-    "rel_path": "cardboard/cardboard213.jpg",
-    "class": "cardboard"
-  },
-  {
-    "rel_path": "cardboard/cardboard288.jpg",
-    "class": "cardboard"
-  },
-  {
-    "rel_path": "paper/paper500.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "glass/glass193.jpg",
-    "class": "glass"
-  },
-  {
-    "rel_path": "paper/paper266.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "cardboard/cardboard175.jpg",
-    "class": "cardboard"
-  },
-  {
-    "rel_path": "glass/glass339.jpg",
-    "class": "glass"
-  },
-  {
-    "rel_path": "plastic/plastic314.jpg",
-    "class": "plastic"
-  },
-  {
-    "rel_path": "glass/glass98.jpg",
-    "class": "glass"
-  },
-  {
-    "rel_path": "paper/paper526.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "paper/paper177.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "glass/glass260.jpg",
-    "class": "glass"
-  },
-  {
-    "rel_path": "cardboard/cardboard8.jpg",
-    "class": "cardboard"
-  },
-  {
-    "rel_path": "metal/metal150.jpg",
+    "rel_path": "metal/R_1769.jpg",
     "class": "metal"
   },
   {
-    "rel_path": "paper/paper261.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "plastic/plastic59.jpg",
-    "class": "plastic"
-  },
-  {
-    "rel_path": "paper/paper226.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "paper/paper390.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "plastic/plastic427.jpg",
-    "class": "plastic"
-  },
-  {
-    "rel_path": "cardboard/cardboard267.jpg",
-    "class": "cardboard"
-  },
-  {
-    "rel_path": "glass/glass157.jpg",
+    "rel_path": "glass/R_9171.jpg",
     "class": "glass"
   },
   {
-    "rel_path": "glass/glass201.jpg",
-    "class": "glass"
+    "rel_path": "plastic/plast (222).jpg",
+    "class": "plastic"
   },
   {
-    "rel_path": "cardboard/cardboard55.jpg",
-    "class": "cardboard"
+    "rel_path": "plastic/plast (114).jpg",
+    "class": "plastic"
   },
   {
-    "rel_path": "paper/paper420.jpg",
-    "class": "paper"
+    "rel_path": "plastic/plast (287).jpg",
+    "class": "plastic"
   },
   {
-    "rel_path": "metal/metal144.jpg",
+    "rel_path": "plastic/R_683.jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "metal/R_2795.jpg",
     "class": "metal"
   },
   {
-    "rel_path": "cardboard/cardboard284.jpg",
-    "class": "cardboard"
-  },
-  {
-    "rel_path": "paper/paper591.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "paper/paper487.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "plastic/plastic346.jpg",
+    "rel_path": "plastic/plast (98).jpg",
     "class": "plastic"
   },
   {
-    "rel_path": "plastic/plastic112.jpg",
+    "rel_path": "plastic/plast (312).jpg",
     "class": "plastic"
   },
   {
-    "rel_path": "paper/paper5.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "glass/glass3.jpg",
+    "rel_path": "glass/R_5176.jpg",
     "class": "glass"
   },
   {
-    "rel_path": "trash/trash17.jpg",
-    "class": "trash"
+    "rel_path": "biodegradable/O_2989.jpg",
+    "class": "biodegradable"
   },
   {
-    "rel_path": "cardboard/cardboard240.jpg",
-    "class": "cardboard"
-  },
-  {
-    "rel_path": "cardboard/cardboard327.jpg",
-    "class": "cardboard"
-  },
-  {
-    "rel_path": "paper/paper534.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "glass/glass277.jpg",
-    "class": "glass"
-  },
-  {
-    "rel_path": "paper/paper492.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "metal/metal206.jpg",
+    "rel_path": "metal/alum (46).jpg",
     "class": "metal"
   },
   {
-    "rel_path": "glass/glass374.jpg",
-    "class": "glass"
-  },
-  {
-    "rel_path": "cardboard/cardboard121.jpg",
-    "class": "cardboard"
-  },
-  {
-    "rel_path": "paper/paper186.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "paper/paper79.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "plastic/plastic303.jpg",
-    "class": "plastic"
-  },
-  {
-    "rel_path": "glass/glass59.jpg",
-    "class": "glass"
-  },
-  {
-    "rel_path": "plastic/plastic4.jpg",
-    "class": "plastic"
-  },
-  {
-    "rel_path": "plastic/plastic65.jpg",
-    "class": "plastic"
-  },
-  {
-    "rel_path": "glass/glass462.jpg",
-    "class": "glass"
-  },
-  {
-    "rel_path": "metal/metal13.jpg",
+    "rel_path": "metal/R_1690.jpg",
     "class": "metal"
   },
   {
-    "rel_path": "glass/glass362.jpg",
-    "class": "glass"
-  },
-  {
-    "rel_path": "paper/paper67.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "glass/glass421.jpg",
-    "class": "glass"
-  },
-  {
-    "rel_path": "trash/trash36.jpg",
-    "class": "trash"
-  },
-  {
-    "rel_path": "plastic/plastic430.jpg",
+    "rel_path": "plastic/pet (189).jpg",
     "class": "plastic"
   },
   {
-    "rel_path": "metal/metal409.jpg",
+    "rel_path": "metal/R_2122.jpg",
     "class": "metal"
   },
   {
-    "rel_path": "cardboard/cardboard93.jpg",
-    "class": "cardboard"
-  },
-  {
-    "rel_path": "glass/glass445.jpg",
-    "class": "glass"
-  },
-  {
-    "rel_path": "cardboard/cardboard167.jpg",
-    "class": "cardboard"
-  },
-  {
-    "rel_path": "paper/paper424.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "paper/paper124.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "metal/metal20.jpg",
+    "rel_path": "metal/R_1899.jpg",
     "class": "metal"
   },
   {
-    "rel_path": "cardboard/cardboard217.jpg",
-    "class": "cardboard"
+    "rel_path": "plastic/R_45.jpg",
+    "class": "plastic"
   },
   {
-    "rel_path": "paper/paper438.jpg",
-    "class": "paper"
+    "rel_path": "biodegradable/org (74).jpg",
+    "class": "biodegradable"
   },
   {
-    "rel_path": "glass/glass115.jpg",
+    "rel_path": "glass/glass (149).jpg",
     "class": "glass"
   },
   {
-    "rel_path": "paper/paper355.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "cardboard/cardboard151.jpg",
-    "class": "cardboard"
-  },
-  {
-    "rel_path": "paper/paper528.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "trash/trash96.jpg",
-    "class": "trash"
-  },
-  {
-    "rel_path": "trash/trash69.jpg",
-    "class": "trash"
-  },
-  {
-    "rel_path": "cardboard/cardboard50.jpg",
-    "class": "cardboard"
-  },
-  {
-    "rel_path": "paper/paper216.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "trash/trash129.jpg",
-    "class": "trash"
-  },
-  {
-    "rel_path": "glass/glass206.jpg",
+    "rel_path": "glass/R_5099.jpg",
     "class": "glass"
   },
   {
-    "rel_path": "glass/glass177.jpg",
-    "class": "glass"
+    "rel_path": "plastic/plast (112).jpg",
+    "class": "plastic"
   },
   {
-    "rel_path": "glass/glass70.jpg",
-    "class": "glass"
-  },
-  {
-    "rel_path": "glass/glass485.jpg",
-    "class": "glass"
-  },
-  {
-    "rel_path": "glass/glass183.jpg",
-    "class": "glass"
-  },
-  {
-    "rel_path": "paper/paper130.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "metal/metal344.jpg",
+    "rel_path": "metal/R_1985.jpg",
     "class": "metal"
   },
   {
-    "rel_path": "cardboard/cardboard255.jpg",
-    "class": "cardboard"
-  },
-  {
-    "rel_path": "plastic/plastic156.jpg",
-    "class": "plastic"
-  },
-  {
-    "rel_path": "glass/glass30.jpg",
-    "class": "glass"
-  },
-  {
-    "rel_path": "plastic/plastic184.jpg",
-    "class": "plastic"
-  },
-  {
-    "rel_path": "metal/metal18.jpg",
+    "rel_path": "metal/alum (266).jpg",
     "class": "metal"
   },
   {
-    "rel_path": "cardboard/cardboard275.jpg",
-    "class": "cardboard"
-  },
-  {
-    "rel_path": "glass/glass289.jpg",
-    "class": "glass"
-  },
-  {
-    "rel_path": "paper/paper303.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "plastic/plastic465.jpg",
+    "rel_path": "plastic/R_389.jpg",
     "class": "plastic"
   },
   {
-    "rel_path": "metal/metal244.jpg",
+    "rel_path": "plastic/R_383.jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "metal/alum (193).jpg",
     "class": "metal"
   },
   {
-    "rel_path": "glass/glass89.jpg",
-    "class": "glass"
-  },
-  {
-    "rel_path": "metal/metal320.jpg",
+    "rel_path": "metal/R_1879.jpg",
     "class": "metal"
   },
   {
-    "rel_path": "paper/paper155.jpg",
-    "class": "paper"
+    "rel_path": "biodegradable/O_9690.jpg",
+    "class": "biodegradable"
   },
   {
-    "rel_path": "glass/glass300.jpg",
-    "class": "glass"
-  },
-  {
-    "rel_path": "glass/glass17.jpg",
-    "class": "glass"
-  },
-  {
-    "rel_path": "plastic/plastic425.jpg",
-    "class": "plastic"
-  },
-  {
-    "rel_path": "plastic/plastic280.jpg",
-    "class": "plastic"
-  },
-  {
-    "rel_path": "paper/paper103.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "trash/trash88.jpg",
-    "class": "trash"
-  },
-  {
-    "rel_path": "metal/metal191.jpg",
+    "rel_path": "metal/R_2838.jpg",
     "class": "metal"
   },
   {
-    "rel_path": "plastic/plastic437.jpg",
+    "rel_path": "plastic/plast (314).jpg",
     "class": "plastic"
   },
   {
-    "rel_path": "cardboard/cardboard70.jpg",
-    "class": "cardboard"
-  },
-  {
-    "rel_path": "trash/trash37.jpg",
-    "class": "trash"
-  },
-  {
-    "rel_path": "cardboard/cardboard355.jpg",
-    "class": "cardboard"
-  },
-  {
-    "rel_path": "paper/paper446.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "paper/paper271.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "paper/paper10.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "plastic/plastic181.jpg",
+    "rel_path": "plastic/pet (328).jpg",
     "class": "plastic"
   },
   {
-    "rel_path": "glass/glass296.jpg",
-    "class": "glass"
+    "rel_path": "biodegradable/O_116.jpg",
+    "class": "biodegradable"
   },
   {
-    "rel_path": "plastic/plastic193.jpg",
+    "rel_path": "biodegradable/O_11025.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "biodegradable/O_5385.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "plastic/pet (199).jpg",
     "class": "plastic"
   },
   {
-    "rel_path": "metal/metal15.jpg",
+    "rel_path": "metal/alum (147).jpg",
     "class": "metal"
   },
   {
-    "rel_path": "trash/trash48.jpg",
-    "class": "trash"
-  },
-  {
-    "rel_path": "cardboard/cardboard131.jpg",
-    "class": "cardboard"
-  },
-  {
-    "rel_path": "paper/paper2.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "paper/paper441.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "plastic/plastic301.jpg",
-    "class": "plastic"
-  },
-  {
-    "rel_path": "paper/paper527.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "glass/glass466.jpg",
+    "rel_path": "glass/glass (158).jpg",
     "class": "glass"
   },
   {
-    "rel_path": "paper/paper295.jpg",
-    "class": "paper"
+    "rel_path": "glass/R_5676.jpg",
+    "class": "glass"
   },
   {
-    "rel_path": "metal/metal135.jpg",
+    "rel_path": "glass/R_5564.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "metal/alum (182).jpg",
     "class": "metal"
   },
   {
-    "rel_path": "paper/paper344.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "paper/paper569.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "paper/paper150.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "glass/glass367.jpg",
-    "class": "glass"
-  },
-  {
-    "rel_path": "plastic/plastic340.jpg",
+    "rel_path": "plastic/pet (305).jpg",
     "class": "plastic"
   },
   {
-    "rel_path": "glass/glass80.jpg",
+    "rel_path": "glass/glass (217).jpg",
     "class": "glass"
   },
   {
-    "rel_path": "glass/glass81.jpg",
+    "rel_path": "metal/alum (31).jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "glass/R_5289.jpg",
     "class": "glass"
   },
   {
-    "rel_path": "plastic/plastic3.jpg",
+    "rel_path": "metal/R_2784.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "biodegradable/O_4239.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "glass/R_5433.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "biodegradable/O_4124.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "biodegradable/O_7410.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "biodegradable/O_9495.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "biodegradable/O_11385.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "plastic/R_22.jpg",
     "class": "plastic"
   },
   {
-    "rel_path": "plastic/plastic178.jpg",
+    "rel_path": "plastic/plast (122).jpg",
     "class": "plastic"
   },
   {
-    "rel_path": "glass/glass330.jpg",
+    "rel_path": "biodegradable/org (50).jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "biodegradable/O_4274.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "glass/glass (342).jpg",
     "class": "glass"
   },
   {
-    "rel_path": "plastic/plastic441.jpg",
+    "rel_path": "plastic/R_640.jpg",
     "class": "plastic"
   },
   {
-    "rel_path": "cardboard/cardboard314.jpg",
-    "class": "cardboard"
-  },
-  {
-    "rel_path": "paper/paper27.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "glass/glass116.jpg",
+    "rel_path": "glass/glass (34).jpg",
     "class": "glass"
   },
   {
-    "rel_path": "plastic/plastic97.jpg",
+    "rel_path": "glass/R_5164.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "plastic/plast (265).jpg",
     "class": "plastic"
   },
   {
-    "rel_path": "paper/paper331.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "metal/metal11.jpg",
+    "rel_path": "metal/R_1763.jpg",
     "class": "metal"
   },
   {
-    "rel_path": "glass/glass12.jpg",
-    "class": "glass"
-  },
-  {
-    "rel_path": "metal/metal25.jpg",
-    "class": "metal"
-  },
-  {
-    "rel_path": "paper/paper195.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "metal/metal284.jpg",
-    "class": "metal"
-  },
-  {
-    "rel_path": "metal/metal273.jpg",
-    "class": "metal"
-  },
-  {
-    "rel_path": "metal/metal142.jpg",
-    "class": "metal"
-  },
-  {
-    "rel_path": "cardboard/cardboard251.jpg",
-    "class": "cardboard"
-  },
-  {
-    "rel_path": "paper/paper296.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "metal/metal345.jpg",
-    "class": "metal"
-  },
-  {
-    "rel_path": "glass/glass357.jpg",
-    "class": "glass"
-  },
-  {
-    "rel_path": "paper/paper404.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "metal/metal208.jpg",
-    "class": "metal"
-  },
-  {
-    "rel_path": "plastic/plastic180.jpg",
+    "rel_path": "plastic/plast (44).jpg",
     "class": "plastic"
   },
   {
-    "rel_path": "plastic/plastic158.jpg",
-    "class": "plastic"
+    "rel_path": "glass/R_5451.jpg",
+    "class": "glass"
   },
   {
-    "rel_path": "metal/metal196.jpg",
+    "rel_path": "biodegradable/org (14).jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "metal/R_1977.jpg",
     "class": "metal"
   },
   {
-    "rel_path": "metal/metal311.jpg",
+    "rel_path": "biodegradable/O_13560.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "glass/R_5346.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "metal/R_1644.jpg",
     "class": "metal"
   },
   {
-    "rel_path": "plastic/plastic9.jpg",
-    "class": "plastic"
-  },
-  {
-    "rel_path": "plastic/plastic16.jpg",
-    "class": "plastic"
-  },
-  {
-    "rel_path": "metal/metal223.jpg",
+    "rel_path": "metal/R_2504.jpg",
     "class": "metal"
   },
   {
-    "rel_path": "glass/glass218.jpg",
+    "rel_path": "biodegradable/O_957.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "glass/R_9001.jpg",
     "class": "glass"
   },
   {
-    "rel_path": "cardboard/cardboard190.jpg",
-    "class": "cardboard"
+    "rel_path": "biodegradable/org (166).jpg",
+    "class": "biodegradable"
   },
   {
-    "rel_path": "glass/glass174.jpg",
-    "class": "glass"
+    "rel_path": "plastic/plast (11).jpg",
+    "class": "plastic"
   },
   {
-    "rel_path": "metal/metal275.jpg",
+    "rel_path": "biodegradable/org (167).jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "metal/R_1863.jpg",
     "class": "metal"
   },
   {
-    "rel_path": "plastic/plastic174.jpg",
+    "rel_path": "plastic/R_113.jpg",
     "class": "plastic"
   },
   {
-    "rel_path": "plastic/plastic218.jpg",
+    "rel_path": "plastic/R_571.jpg",
     "class": "plastic"
   },
   {
-    "rel_path": "paper/paper349.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "paper/paper73.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "plastic/plastic408.jpg",
-    "class": "plastic"
-  },
-  {
-    "rel_path": "metal/metal371.jpg",
+    "rel_path": "metal/R_1748.jpg",
     "class": "metal"
   },
   {
-    "rel_path": "glass/glass66.jpg",
+    "rel_path": "glass/R_3913.jpg",
     "class": "glass"
   },
   {
-    "rel_path": "trash/trash16.jpg",
-    "class": "trash"
-  },
-  {
-    "rel_path": "glass/glass312.jpg",
-    "class": "glass"
-  },
-  {
-    "rel_path": "paper/paper235.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "metal/metal314.jpg",
-    "class": "metal"
-  },
-  {
-    "rel_path": "trash/trash133.jpg",
-    "class": "trash"
-  },
-  {
-    "rel_path": "metal/metal299.jpg",
-    "class": "metal"
-  },
-  {
-    "rel_path": "paper/paper158.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "metal/metal359.jpg",
-    "class": "metal"
-  },
-  {
-    "rel_path": "cardboard/cardboard171.jpg",
-    "class": "cardboard"
-  },
-  {
-    "rel_path": "metal/metal368.jpg",
-    "class": "metal"
-  },
-  {
-    "rel_path": "paper/paper105.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "cardboard/cardboard353.jpg",
-    "class": "cardboard"
-  },
-  {
-    "rel_path": "glass/glass55.jpg",
-    "class": "glass"
-  },
-  {
-    "rel_path": "metal/metal194.jpg",
-    "class": "metal"
-  },
-  {
-    "rel_path": "plastic/plastic335.jpg",
+    "rel_path": "plastic/plast (308).jpg",
     "class": "plastic"
   },
   {
-    "rel_path": "paper/paper495.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "glass/glass444.jpg",
-    "class": "glass"
-  },
-  {
-    "rel_path": "glass/glass113.jpg",
-    "class": "glass"
-  },
-  {
-    "rel_path": "cardboard/cardboard380.jpg",
-    "class": "cardboard"
-  },
-  {
-    "rel_path": "plastic/plastic171.jpg",
+    "rel_path": "plastic/pet (240).jpg",
     "class": "plastic"
   },
   {
-    "rel_path": "trash/trash9.jpg",
-    "class": "trash"
-  },
-  {
-    "rel_path": "plastic/plastic209.jpg",
-    "class": "plastic"
-  },
-  {
-    "rel_path": "paper/paper76.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "trash/trash65.jpg",
-    "class": "trash"
-  },
-  {
-    "rel_path": "cardboard/cardboard206.jpg",
-    "class": "cardboard"
-  },
-  {
-    "rel_path": "plastic/plastic221.jpg",
-    "class": "plastic"
-  },
-  {
-    "rel_path": "glass/glass404.jpg",
+    "rel_path": "glass/glass (69).jpg",
     "class": "glass"
   },
   {
-    "rel_path": "metal/metal392.jpg",
+    "rel_path": "plastic/plast (247).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "glass/R_5332.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "metal/R_2002.jpg",
     "class": "metal"
   },
   {
-    "rel_path": "plastic/plastic46.jpg",
+    "rel_path": "plastic/pet (8).jpg",
     "class": "plastic"
   },
   {
-    "rel_path": "glass/glass324.jpg",
-    "class": "glass"
+    "rel_path": "biodegradable/O_12150.jpg",
+    "class": "biodegradable"
   },
   {
-    "rel_path": "glass/glass269.jpg",
-    "class": "glass"
-  },
-  {
-    "rel_path": "trash/trash102.jpg",
-    "class": "trash"
-  },
-  {
-    "rel_path": "glass/glass350.jpg",
-    "class": "glass"
-  },
-  {
-    "rel_path": "glass/glass431.jpg",
-    "class": "glass"
-  },
-  {
-    "rel_path": "cardboard/cardboard46.jpg",
-    "class": "cardboard"
-  },
-  {
-    "rel_path": "paper/paper558.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "trash/trash108.jpg",
-    "class": "trash"
-  },
-  {
-    "rel_path": "cardboard/cardboard71.jpg",
-    "class": "cardboard"
-  },
-  {
-    "rel_path": "glass/glass452.jpg",
-    "class": "glass"
-  },
-  {
-    "rel_path": "metal/metal145.jpg",
+    "rel_path": "metal/R_2108.jpg",
     "class": "metal"
   },
   {
-    "rel_path": "paper/paper142.jpg",
-    "class": "paper"
+    "rel_path": "glass/R_5121.jpg",
+    "class": "glass"
   },
   {
-    "rel_path": "metal/metal372.jpg",
+    "rel_path": "glass/R_5509.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "plastic/plast (129).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "metal/R_1858.jpg",
     "class": "metal"
   },
   {
-    "rel_path": "cardboard/cardboard207.jpg",
-    "class": "cardboard"
+    "rel_path": "plastic/pet (186).jpg",
+    "class": "plastic"
   },
   {
-    "rel_path": "cardboard/cardboard384.jpg",
-    "class": "cardboard"
-  },
-  {
-    "rel_path": "paper/paper391.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "paper/paper71.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "metal/metal226.jpg",
+    "rel_path": "metal/R_2580.jpg",
     "class": "metal"
   },
   {
-    "rel_path": "cardboard/cardboard397.jpg",
-    "class": "cardboard"
+    "rel_path": "glass/glass (73).jpg",
+    "class": "glass"
   },
   {
-    "rel_path": "trash/trash63.jpg",
-    "class": "trash"
-  },
-  {
-    "rel_path": "paper/paper442.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "metal/metal177.jpg",
+    "rel_path": "metal/alum (224).jpg",
     "class": "metal"
   },
   {
-    "rel_path": "plastic/plastic157.jpg",
-    "class": "plastic"
-  },
-  {
-    "rel_path": "cardboard/cardboard75.jpg",
-    "class": "cardboard"
-  },
-  {
-    "rel_path": "glass/glass120.jpg",
-    "class": "glass"
-  },
-  {
-    "rel_path": "glass/glass363.jpg",
-    "class": "glass"
-  },
-  {
-    "rel_path": "trash/trash134.jpg",
-    "class": "trash"
-  },
-  {
-    "rel_path": "metal/metal133.jpg",
+    "rel_path": "metal/alum (150).jpg",
     "class": "metal"
   },
   {
-    "rel_path": "glass/glass364.jpg",
-    "class": "glass"
-  },
-  {
-    "rel_path": "plastic/plastic369.jpg",
+    "rel_path": "plastic/pet (32).jpg",
     "class": "plastic"
   },
   {
-    "rel_path": "plastic/plastic338.jpg",
-    "class": "plastic"
-  },
-  {
-    "rel_path": "paper/paper37.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "glass/glass311.jpg",
-    "class": "glass"
-  },
-  {
-    "rel_path": "glass/glass107.jpg",
-    "class": "glass"
-  },
-  {
-    "rel_path": "paper/paper348.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "glass/glass295.jpg",
-    "class": "glass"
-  },
-  {
-    "rel_path": "plastic/plastic220.jpg",
-    "class": "plastic"
-  },
-  {
-    "rel_path": "metal/metal261.jpg",
+    "rel_path": "metal/R_1704.jpg",
     "class": "metal"
   },
   {
-    "rel_path": "metal/metal347.jpg",
+    "rel_path": "biodegradable/org (65).jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "plastic/pet (168).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "glass/R_5217.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "glass/R_5136.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "glass/R_5607.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "glass/R_5361.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "plastic/pet (80).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "plastic/pet (56).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "biodegradable/O_4224.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "metal/R_2519.jpg",
     "class": "metal"
   },
   {
-    "rel_path": "metal/metal74.jpg",
+    "rel_path": "glass/R_5192.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "metal/alum (148).jpg",
     "class": "metal"
   },
   {
-    "rel_path": "paper/paper574.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "cardboard/cardboard149.jpg",
-    "class": "cardboard"
-  },
-  {
-    "rel_path": "paper/paper347.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "paper/paper513.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "paper/paper183.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "metal/metal316.jpg",
+    "rel_path": "metal/alum (340).jpg",
     "class": "metal"
   },
   {
-    "rel_path": "metal/metal30.jpg",
+    "rel_path": "biodegradable/O_305.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "metal/R_1859.jpg",
     "class": "metal"
   },
   {
-    "rel_path": "paper/paper377.jpg",
-    "class": "paper"
+    "rel_path": "biodegradable/O_4725.jpg",
+    "class": "biodegradable"
   },
   {
-    "rel_path": "plastic/plastic29.jpg",
-    "class": "plastic"
-  },
-  {
-    "rel_path": "glass/glass353.jpg",
+    "rel_path": "glass/glass (213).jpg",
     "class": "glass"
   },
   {
-    "rel_path": "plastic/plastic383.jpg",
-    "class": "plastic"
-  },
-  {
-    "rel_path": "paper/paper592.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "plastic/plastic72.jpg",
-    "class": "plastic"
-  },
-  {
-    "rel_path": "cardboard/cardboard44.jpg",
-    "class": "cardboard"
-  },
-  {
-    "rel_path": "glass/glass418.jpg",
+    "rel_path": "glass/R_5390.jpg",
     "class": "glass"
   },
   {
-    "rel_path": "plastic/plastic236.jpg",
+    "rel_path": "plastic/pet (64).jpg",
     "class": "plastic"
   },
   {
-    "rel_path": "glass/glass395.jpg",
+    "rel_path": "biodegradable/O_3185.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "glass/R_5463.jpg",
     "class": "glass"
   },
   {
-    "rel_path": "plastic/plastic105.jpg",
+    "rel_path": "glass/R_5464.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "plastic/plast (138).jpg",
     "class": "plastic"
   },
   {
-    "rel_path": "paper/paper297.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "cardboard/cardboard306.jpg",
-    "class": "cardboard"
-  },
-  {
-    "rel_path": "cardboard/cardboard238.jpg",
-    "class": "cardboard"
-  },
-  {
-    "rel_path": "metal/metal263.jpg",
+    "rel_path": "metal/R_2690.jpg",
     "class": "metal"
   },
   {
-    "rel_path": "cardboard/cardboard94.jpg",
-    "class": "cardboard"
-  },
-  {
-    "rel_path": "glass/glass121.jpg",
+    "rel_path": "glass/R_8913.jpg",
     "class": "glass"
   },
   {
-    "rel_path": "cardboard/cardboard252.jpg",
-    "class": "cardboard"
+    "rel_path": "biodegradable/O_4259.jpg",
+    "class": "biodegradable"
   },
   {
-    "rel_path": "glass/glass85.jpg",
+    "rel_path": "biodegradable/org (147).jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "glass/R_5310.jpg",
     "class": "glass"
   },
   {
-    "rel_path": "paper/paper95.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "plastic/plastic377.jpg",
+    "rel_path": "plastic/pet (142).jpg",
     "class": "plastic"
   },
   {
-    "rel_path": "trash/trash121.jpg",
-    "class": "trash"
-  },
-  {
-    "rel_path": "paper/paper48.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "plastic/plastic225.jpg",
-    "class": "plastic"
-  },
-  {
-    "rel_path": "trash/trash91.jpg",
-    "class": "trash"
-  },
-  {
-    "rel_path": "cardboard/cardboard326.jpg",
-    "class": "cardboard"
-  },
-  {
-    "rel_path": "glass/glass484.jpg",
+    "rel_path": "glass/R_5059.jpg",
     "class": "glass"
   },
   {
-    "rel_path": "glass/glass212.jpg",
-    "class": "glass"
-  },
-  {
-    "rel_path": "glass/glass292.jpg",
-    "class": "glass"
-  },
-  {
-    "rel_path": "metal/metal235.jpg",
+    "rel_path": "metal/R_1844.jpg",
     "class": "metal"
   },
   {
-    "rel_path": "glass/glass204.jpg",
-    "class": "glass"
+    "rel_path": "biodegradable/org (169).jpg",
+    "class": "biodegradable"
   },
   {
-    "rel_path": "plastic/plastic251.jpg",
-    "class": "plastic"
-  },
-  {
-    "rel_path": "glass/glass112.jpg",
-    "class": "glass"
-  },
-  {
-    "rel_path": "paper/paper264.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "cardboard/cardboard97.jpg",
-    "class": "cardboard"
-  },
-  {
-    "rel_path": "paper/paper45.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "glass/glass133.jpg",
-    "class": "glass"
-  },
-  {
-    "rel_path": "metal/metal167.jpg",
+    "rel_path": "metal/alum (215).jpg",
     "class": "metal"
   },
   {
-    "rel_path": "metal/metal313.jpg",
+    "rel_path": "metal/alum (218).jpg",
     "class": "metal"
   },
   {
-    "rel_path": "cardboard/cardboard369.jpg",
-    "class": "cardboard"
-  },
-  {
-    "rel_path": "plastic/plastic457.jpg",
-    "class": "plastic"
-  },
-  {
-    "rel_path": "glass/glass411.jpg",
+    "rel_path": "glass/R_5092.jpg",
     "class": "glass"
   },
   {
-    "rel_path": "plastic/plastic417.jpg",
+    "rel_path": "plastic/plast (110).jpg",
     "class": "plastic"
   },
   {
-    "rel_path": "plastic/plastic331.jpg",
+    "rel_path": "plastic/pet (70).jpg",
     "class": "plastic"
   },
   {
-    "rel_path": "cardboard/cardboard270.jpg",
-    "class": "cardboard"
-  },
-  {
-    "rel_path": "plastic/plastic49.jpg",
-    "class": "plastic"
-  },
-  {
-    "rel_path": "cardboard/cardboard198.jpg",
-    "class": "cardboard"
-  },
-  {
-    "rel_path": "metal/metal148.jpg",
-    "class": "metal"
-  },
-  {
-    "rel_path": "glass/glass332.jpg",
+    "rel_path": "glass/glass (321).jpg",
     "class": "glass"
   },
   {
-    "rel_path": "paper/paper193.jpg",
-    "class": "paper"
+    "rel_path": "biodegradable/org (174).jpg",
+    "class": "biodegradable"
   },
   {
-    "rel_path": "paper/paper341.jpg",
-    "class": "paper"
+    "rel_path": "metal/alum (202).jpg",
+    "class": "metal"
   },
   {
-    "rel_path": "paper/paper433.jpg",
-    "class": "paper"
+    "rel_path": "biodegradable/O_1662.jpg",
+    "class": "biodegradable"
   },
   {
-    "rel_path": "trash/trash67.jpg",
-    "class": "trash"
+    "rel_path": "metal/R_2797.jpg",
+    "class": "metal"
   },
   {
-    "rel_path": "glass/glass60.jpg",
+    "rel_path": "metal/R_2049.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "biodegradable/O_3123.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "biodegradable/org (158).jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "biodegradable/O_13680.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "biodegradable/O_5190.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "metal/alum (24).jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "plastic/pet (309).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "glass/R_5453.jpg",
     "class": "glass"
   },
   {
-    "rel_path": "metal/metal243.jpg",
-    "class": "metal"
-  },
-  {
-    "rel_path": "cardboard/cardboard230.jpg",
-    "class": "cardboard"
-  },
-  {
-    "rel_path": "cardboard/cardboard65.jpg",
-    "class": "cardboard"
-  },
-  {
-    "rel_path": "metal/metal111.jpg",
-    "class": "metal"
-  },
-  {
-    "rel_path": "cardboard/cardboard321.jpg",
-    "class": "cardboard"
-  },
-  {
-    "rel_path": "plastic/plastic203.jpg",
+    "rel_path": "plastic/plast (203).jpg",
     "class": "plastic"
   },
   {
-    "rel_path": "cardboard/cardboard92.jpg",
-    "class": "cardboard"
+    "rel_path": "plastic/pet (110).jpg",
+    "class": "plastic"
   },
   {
-    "rel_path": "cardboard/cardboard186.jpg",
-    "class": "cardboard"
+    "rel_path": "metal/alum (149).jpg",
+    "class": "metal"
   },
   {
-    "rel_path": "glass/glass129.jpg",
+    "rel_path": "biodegradable/O_11040.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "biodegradable/O_9705.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "plastic/pet (148).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "biodegradable/O_12120.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "glass/R_3942.jpg",
     "class": "glass"
   },
   {
-    "rel_path": "glass/glass493.jpg",
+    "rel_path": "glass/R_5630.jpg",
     "class": "glass"
   },
   {
-    "rel_path": "plastic/plastic240.jpg",
-    "class": "plastic"
+    "rel_path": "biodegradable/O_3092.jpg",
+    "class": "biodegradable"
   },
   {
-    "rel_path": "glass/glass403.jpg",
+    "rel_path": "glass/R_3878.jpg",
     "class": "glass"
   },
   {
-    "rel_path": "trash/trash5.jpg",
-    "class": "trash"
+    "rel_path": "biodegradable/O_4177.jpg",
+    "class": "biodegradable"
   },
   {
-    "rel_path": "trash/trash4.jpg",
-    "class": "trash"
+    "rel_path": "metal/alum (176).jpg",
+    "class": "metal"
   },
   {
-    "rel_path": "paper/paper148.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "plastic/plastic283.jpg",
+    "rel_path": "plastic/pet (304).jpg",
     "class": "plastic"
   },
   {
-    "rel_path": "trash/trash71.jpg",
-    "class": "trash"
-  },
-  {
-    "rel_path": "metal/metal362.jpg",
-    "class": "metal"
-  },
-  {
-    "rel_path": "paper/paper19.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "metal/metal49.jpg",
-    "class": "metal"
-  },
-  {
-    "rel_path": "metal/metal410.jpg",
-    "class": "metal"
-  },
-  {
-    "rel_path": "plastic/plastic249.jpg",
+    "rel_path": "plastic/R_737.jpg",
     "class": "plastic"
   },
   {
-    "rel_path": "paper/paper359.jpg",
-    "class": "paper"
+    "rel_path": "metal/alum (254).jpg",
+    "class": "metal"
   },
   {
-    "rel_path": "cardboard/cardboard16.jpg",
-    "class": "cardboard"
-  },
-  {
-    "rel_path": "paper/paper309.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "trash/trash76.jpg",
-    "class": "trash"
-  },
-  {
-    "rel_path": "cardboard/cardboard277.jpg",
-    "class": "cardboard"
-  },
-  {
-    "rel_path": "paper/paper153.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "paper/paper83.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "cardboard/cardboard347.jpg",
-    "class": "cardboard"
-  },
-  {
-    "rel_path": "paper/paper472.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "glass/glass163.jpg",
+    "rel_path": "glass/glass (244).jpg",
     "class": "glass"
   },
   {
-    "rel_path": "metal/metal327.jpg",
+    "rel_path": "metal/alum (180).jpg",
     "class": "metal"
   },
   {
-    "rel_path": "plastic/plastic57.jpg",
+    "rel_path": "plastic/plast (32).JPG",
     "class": "plastic"
   },
   {
-    "rel_path": "plastic/plastic259.jpg",
-    "class": "plastic"
+    "rel_path": "biodegradable/O_12210.jpg",
+    "class": "biodegradable"
   },
   {
-    "rel_path": "plastic/plastic198.jpg",
-    "class": "plastic"
-  },
-  {
-    "rel_path": "paper/paper57.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "glass/glass342.jpg",
+    "rel_path": "glass/R_5533.jpg",
     "class": "glass"
   },
   {
-    "rel_path": "cardboard/cardboard302.jpg",
-    "class": "cardboard"
-  },
-  {
-    "rel_path": "paper/paper445.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "cardboard/cardboard236.jpg",
-    "class": "cardboard"
-  },
-  {
-    "rel_path": "metal/metal46.jpg",
-    "class": "metal"
-  },
-  {
-    "rel_path": "paper/paper56.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "plastic/plastic148.jpg",
-    "class": "plastic"
-  },
-  {
-    "rel_path": "paper/paper189.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "metal/metal229.jpg",
-    "class": "metal"
-  },
-  {
-    "rel_path": "plastic/plastic453.jpg",
-    "class": "plastic"
-  },
-  {
-    "rel_path": "metal/metal256.jpg",
-    "class": "metal"
-  },
-  {
-    "rel_path": "plastic/plastic116.jpg",
-    "class": "plastic"
-  },
-  {
-    "rel_path": "plastic/plastic276.jpg",
-    "class": "plastic"
-  },
-  {
-    "rel_path": "plastic/plastic104.jpg",
-    "class": "plastic"
-  },
-  {
-    "rel_path": "plastic/plastic161.jpg",
-    "class": "plastic"
-  },
-  {
-    "rel_path": "paper/paper210.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "paper/paper87.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "cardboard/cardboard333.jpg",
-    "class": "cardboard"
-  },
-  {
-    "rel_path": "trash/trash43.jpg",
-    "class": "trash"
-  },
-  {
-    "rel_path": "glass/glass231.jpg",
+    "rel_path": "glass/R_5307.jpg",
     "class": "glass"
   },
   {
-    "rel_path": "glass/glass299.jpg",
+    "rel_path": "glass/R_5074.jpg",
     "class": "glass"
   },
   {
-    "rel_path": "glass/glass459.jpg",
-    "class": "glass"
+    "rel_path": "biodegradable/O_3227.jpg",
+    "class": "biodegradable"
   },
   {
-    "rel_path": "metal/metal9.jpg",
-    "class": "metal"
+    "rel_path": "biodegradable/O_4075.jpg",
+    "class": "biodegradable"
   },
   {
-    "rel_path": "paper/paper573.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "glass/glass258.jpg",
-    "class": "glass"
-  },
-  {
-    "rel_path": "paper/paper529.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "metal/metal193.jpg",
-    "class": "metal"
-  },
-  {
-    "rel_path": "plastic/plastic438.jpg",
+    "rel_path": "plastic/plast (178).jpg",
     "class": "plastic"
   },
   {
-    "rel_path": "paper/paper300.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "paper/paper429.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "metal/metal187.jpg",
+    "rel_path": "metal/alum (116).jpg",
     "class": "metal"
   },
   {
-    "rel_path": "glass/glass406.jpg",
+    "rel_path": "glass/glass (67).jpg",
     "class": "glass"
   },
   {
-    "rel_path": "paper/paper460.jpg",
-    "class": "paper"
+    "rel_path": "plastic/R_289.jpg",
+    "class": "plastic"
   },
   {
-    "rel_path": "paper/paper85.jpg",
-    "class": "paper"
-  },
-  {
-    "rel_path": "metal/metal5.jpg",
+    "rel_path": "metal/R_4936.jpg",
     "class": "metal"
   },
   {
-    "rel_path": "paper/paper394.jpg",
-    "class": "paper"
+    "rel_path": "biodegradable/org (135).jpg",
+    "class": "biodegradable"
   },
   {
-    "rel_path": "metal/metal107.jpg",
+    "rel_path": "biodegradable/O_13185.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "metal/R_1641.jpg",
     "class": "metal"
   },
   {
-    "rel_path": "paper/paper225.jpg",
-    "class": "paper"
+    "rel_path": "metal/alum (1).jpeg",
+    "class": "metal"
   },
   {
-    "rel_path": "glass/glass57.jpg",
+    "rel_path": "glass/R_9040.jpg",
     "class": "glass"
   },
   {
-    "rel_path": "paper/paper314.jpg",
-    "class": "paper"
+    "rel_path": "metal/R_2663.jpg",
+    "class": "metal"
   },
   {
-    "rel_path": "cardboard/cardboard35.jpg",
-    "class": "cardboard"
+    "rel_path": "metal/alum (90).jpg",
+    "class": "metal"
   },
   {
-    "rel_path": "cardboard/cardboard352.jpg",
-    "class": "cardboard"
+    "rel_path": "plastic/plast (20).jpg",
+    "class": "plastic"
   },
   {
-    "rel_path": "cardboard/cardboard272.jpg",
-    "class": "cardboard"
+    "rel_path": "metal/R_2514.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "plastic/pet (208).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "metal/R_1887.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "plastic/plast (252).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "biodegradable/O_4109.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "metal/R_2019.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "plastic/pet (233).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "plastic/R_84.jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "glass/R_5091.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "glass/R_5055.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "metal/R_2776.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "glass/R_5416.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "metal/alum (105).jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "plastic/plast (297).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "glass/glass (233).jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "metal/alum (189).jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "plastic/plast (214).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "metal/R_1647.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "biodegradable/O_9405.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "plastic/pet (259).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "glass/glass (168).jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "plastic/pet (146).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "metal/R_2004.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "glass/R_3872.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "metal/alum (75).jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "plastic/R_291.jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "plastic/R_898.jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "plastic/R_309.jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "biodegradable/O_10725.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "glass/R_5079.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "metal/R_1631.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "metal/R_5037.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "glass/glass (199).jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "metal/R_4972.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "biodegradable/O_4046.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "glass/glass (2).png",
+    "class": "glass"
+  },
+  {
+    "rel_path": "biodegradable/O_987.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "glass/R_5175.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "plastic/R_685.jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "glass/R_3911.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "glass/R_5206.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "plastic/plast (171).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "plastic/plast (285).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "glass/R_5644.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "metal/alum (107).jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "biodegradable/org (88).jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "metal/R_5048.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "biodegradable/org (130).jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "metal/alum (76).jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "metal/alum (111).jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "biodegradable/org (120).jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "glass/R_5460.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "metal/R_2720.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "glass/glass (341).jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "metal/R_1826.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "biodegradable/O_3149.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "plastic/pet (149).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "plastic/plast (230).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "plastic/R_446.jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "biodegradable/O_3130.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "metal/R_2033.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "metal/R_1848.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "metal/R_2714.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "plastic/pet (298).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "metal/R_1841.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "plastic/R_748.jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "plastic/pet (263).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "metal/R_2680.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "biodegradable/O_2009.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "plastic/pet (68).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "biodegradable/O_3239.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "metal/R_2510.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "biodegradable/O_3184.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "metal/R_1628.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "metal/alum (122).jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "metal/R_4951.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "plastic/plast (157).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "plastic/plast (295).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "metal/alum (81).jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "glass/R_5372.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "biodegradable/O_10245.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "glass/glass (16).jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "plastic/pet (132).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "glass/R_8891.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "biodegradable/org (70).jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "biodegradable/O_2941.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "glass/glass (152).jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "metal/R_2767.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "plastic/R_751.jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "biodegradable/org (106).jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "glass/R_5443.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "metal/alum (8).jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "biodegradable/O_12195.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "glass/glass (320).jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "metal/R_1822.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "metal/R_2047.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "biodegradable/org (78).jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "metal/R_2789.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "glass/glass (98).jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "biodegradable/O_3231.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "glass/R_5148.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "glass/glass (127).jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "glass/glass (298).jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "glass/R_5413.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "biodegradable/O_191.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "biodegradable/O_4455.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "glass/glass (57).jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "biodegradable/O_7245.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "glass/R_5218.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "metal/R_2760.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "glass/R_5126.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "metal/R_2682.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "glass/R_9059.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "glass/R_8896.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "metal/R_2664.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "biodegradable/org (61).jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "metal/R_2844.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "glass/R_3914.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "metal/alum (74).jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "biodegradable/org (12).jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "glass/R_5209.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "biodegradable/org (125).jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "plastic/pet (123).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "metal/alum (54).jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "metal/R_1659.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "plastic/pet (105).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "metal/R_2734.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "plastic/R_443.jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "plastic/R_544.jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "glass/R_3952.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "glass/R_5695.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "plastic/pet (341).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "metal/R_1957.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "biodegradable/org (68).jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "biodegradable/O_4227.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "metal/R_2662.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "glass/glass (138).jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "glass/glass (165).jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "biodegradable/org (41).jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "plastic/pet (78).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "glass/glass (159).jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "glass/R_5456.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "plastic/R_754.jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "plastic/R_108.jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "metal/R_2529.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "biodegradable/O_2987.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "glass/R_5064.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "biodegradable/O_2990.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "plastic/R_384.jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "plastic/R_27.jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "biodegradable/org (154).jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "metal/R_1962.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "metal/alum (265).jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "glass/R_5508.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "biodegradable/O_4545.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "glass/glass (338).jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "metal/R_1657.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "glass/R_5472.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "metal/R_2717.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "metal/alum (140).jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "glass/R_5562.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "plastic/R_655.jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "plastic/pet (46).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "biodegradable/org (143).jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "glass/R_5568.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "biodegradable/O_4094.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "plastic/plast (179).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "metal/R_2618.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "glass/R_5221.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "plastic/pet (307).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "biodegradable/org (80).jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "plastic/R_34.jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "plastic/pet (65).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "glass/glass (13).jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "plastic/pet (67).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "plastic/plast (342).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "glass/glass (294).jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "plastic/plast (96).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "plastic/plast (250).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "glass/R_5284.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "glass/R_8877.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "glass/R_3941.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "biodegradable/O_4905.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "glass/glass (278).jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "metal/R_1646.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "metal/R_2100.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "glass/R_5606.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "glass/glass (253).jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "glass/R_5251.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "metal/R_2725.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "glass/R_3864.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "metal/R_1953.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "metal/alum (315).jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "plastic/pet (139).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "glass/glass (332).jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "biodegradable/O_9765.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "metal/alum (275).jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "biodegradable/O_4088.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "metal/alum (5).jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "plastic/pet (118).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "biodegradable/O_1527.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "plastic/pet (214).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "glass/R_3850.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "biodegradable/O_13065.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "biodegradable/O_1422.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "biodegradable/O_1542.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "metal/R_2737.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "plastic/pet (145).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "glass/R_5247.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "metal/R_1958.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "plastic/plast (288).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "metal/R_2498.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "glass/glass (1).jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "metal/R_2142.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "metal/R_1828.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "plastic/pet (318).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "biodegradable/O_3211.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "plastic/pet (34).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "metal/R_1978.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "glass/glass (288).jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "biodegradable/O_4515.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "plastic/pet (319).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "plastic/R_783.jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "glass/R_5186.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "plastic/R_72.jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "metal/R_1720.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "glass/R_5371.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "biodegradable/O_365.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "biodegradable/O_3081.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "metal/R_2048.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "biodegradable/O_11.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "metal/alum (39).jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "metal/alum (316).jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "glass/R_5402.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "metal/R_2151.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "metal/alum (174).jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "metal/R_2081.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "biodegradable/O_4875.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "plastic/R_724.jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "plastic/R_326.jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "glass/glass (305).jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "biodegradable/O_3074.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "biodegradable/O_3269.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "glass/glass (280).jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "plastic/pet (72).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "metal/alum (302).jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "biodegradable/O_12465.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "metal/R_2573.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "metal/R_2566.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "metal/R_1673.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "glass/R_8819.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "metal/R_2775.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "plastic/R_773.jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "glass/R_5594.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "metal/R_2769.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "glass/R_5347.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "plastic/R_590.jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "plastic/R_293.jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "glass/glass (121).jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "biodegradable/O_3032.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "glass/glass (197).jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "plastic/plast (234).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "metal/R_2792.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "plastic/R_47.jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "plastic/pet (210).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "metal/alum (154).jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "metal/alum (300).jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "metal/R_2071.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "biodegradable/O_12315.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "biodegradable/O_7125.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "metal/alum (44).jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "plastic/pet (291).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "biodegradable/org (144).jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "metal/alum (73).jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "plastic/R_314.jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "metal/alum (51).jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "metal/R_2675.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "biodegradable/org (146).jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "glass/R_9105.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "glass/R_8905.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "glass/R_5083.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "metal/alum (252).jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "plastic/plast (212).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "glass/R_5357.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "metal/alum (168).jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "plastic/plast (303).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "biodegradable/O_4845.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "metal/alum (97).jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "plastic/pet (76).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "glass/R_5632.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "glass/glass (336).jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "metal/R_2635.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "glass/glass (293).jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "glass/glass (151).jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "biodegradable/O_6705.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "metal/R_5009.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "metal/R_4950.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "glass/R_8875.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "glass/R_5076.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "glass/glass (91).jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "plastic/R_398.jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "metal/alum (151).jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "biodegradable/org (37).jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "biodegradable/org (55).jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "biodegradable/O_3001.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "biodegradable/O_11115.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "metal/R_2553.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "metal/alum (185).jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "metal/alum (235).jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "plastic/pet (117).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "metal/alum (268).jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "biodegradable/O_10755.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "biodegradable/O_10890.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "plastic/plast (39).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "biodegradable/O_4076.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "glass/R_5516.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "biodegradable/O_3194.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "plastic/pet (106).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "glass/R_5320.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "plastic/R_44.jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "glass/R_5187.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "metal/R_5020.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "biodegradable/O_13650.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "metal/alum (121).jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "plastic/plast (221).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "glass/R_5487.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "biodegradable/org (76).jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "glass/glass (132).jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "biodegradable/O_726.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "biodegradable/org (94).jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "plastic/pet (22).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "metal/alum (328).jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "metal/R_2821.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "metal/alum (125).jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "glass/R_3912.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "plastic/plast (213).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "glass/R_8914.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "glass/glass (32).jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "metal/alum (274).jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "metal/R_1889.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "glass/R_5259.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "biodegradable/O_3050.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "plastic/pet (306).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "glass/R_5583.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "plastic/plast (331).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "glass/R_5500.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "biodegradable/O_5220.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "glass/R_9028.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "glass/glass (215).jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "plastic/plast (18).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "glass/R_5586.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "glass/R_5315.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "biodegradable/org (89).jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "metal/alum (126).jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "metal/R_4976.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "metal/alum (242).jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "biodegradable/O_7695.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "metal/R_2587.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "glass/R_5678.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "glass/R_9064.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "metal/alum (225).jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "glass/R_5398.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "metal/alum (34).jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "metal/R_2126.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "glass/glass (289).jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "metal/R_2779.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "plastic/plast (76).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "biodegradable/O_2986.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "glass/R_5447.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "plastic/plast (202).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "plastic/plast (133).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "glass/R_5510.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "biodegradable/O_6735.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "plastic/R_355.jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "plastic/pet (257).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "biodegradable/O_3919.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "biodegradable/O_5025.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "metal/R_4978.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "biodegradable/org (15).jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "metal/R_1873.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "glass/R_5170.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "metal/R_2064.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "metal/R_2823.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "metal/alum (22).jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "plastic/plast (74).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "glass/R_8930.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "glass/R_5088.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "glass/R_3851.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "biodegradable/O_3031.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "plastic/plast (150).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "metal/R_1676.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "glass/R_5330.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "plastic/R_608.jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "biodegradable/O_4178.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "biodegradable/O_4785.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "plastic/R_725.jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "glass/R_5142.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "glass/glass (101).jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "glass/glass (26).jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "glass/R_5272.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "metal/R_2783.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "glass/R_9173.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "metal/alum (281).jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "biodegradable/O_1392.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "biodegradable/O_3214.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "glass/R_3882.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "metal/alum (57).jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "plastic/pet (158).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "glass/glass (230).jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "plastic/plast (302).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "plastic/pet (243).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "plastic/pet (160).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "metal/alum (271).jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "glass/R_5353.jpg",
+    "class": "glass"
+  },
+  {
+    "rel_path": "plastic/R_19.jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "plastic/plast (135).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "plastic/pet (36).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "plastic/plast (294).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "metal/R_2115.jpg",
+    "class": "metal"
+  },
+  {
+    "rel_path": "plastic/R_354.jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "plastic/plast (61).jpg",
+    "class": "plastic"
+  },
+  {
+    "rel_path": "biodegradable/O_7800.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "biodegradable/O_895.jpg",
+    "class": "biodegradable"
+  },
+  {
+    "rel_path": "metal/alum (13).jpg",
+    "class": "metal"
   }
 ]
