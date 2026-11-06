@@ -1,0 +1,133 @@
+{
+  "audit_version": "2.0.0",
+  "audit_id": "audit_train_20261106_v2_0_0_mobilenetv2_4class",
+  "created_at_utc": "2026-11-06T07:40:20Z",
+  "created_at_local": "2026-11-06T13:10:20+05:30",
+  "model": {
+    "name": "mobilenetv2_waste_4class",
+    "base_architecture": "mobilenet_v2",
+    "pretrained_weights": "MobileNet_V2_Weights.DEFAULT (ImageNet-1K)",
+    "num_classes": 4,
+    "classes": [
+      "biodegradable",
+      "glass",
+      "metal",
+      "plastic"
+    ],
+    "freeze_strategy": "features[:-2] frozen, top 2 inverted residual blocks + linear head trainable",
+    "classifier_head": "nn.Linear(in_features=1280, out_features=4, bias=True)"
+  },
+  "dataset": {
+    "name": "Waste Images (4-Class Focused Subset)",
+    "root_path": "dataset/waste_4class",
+    "total_images": 4085,
+    "class_distribution": {
+      "biodegradable": 942,
+      "glass": 1089,
+      "metal": 1019,
+      "plastic": 1035
+    },
+    "split_strategy": "deterministic_random_split",
+    "split_seed": 42,
+    "train_ratio": 0.85,
+    "val_ratio": 0.15,
+    "train_samples": 3472,
+    "val_samples": 613,
+    "test_split_manifest": "test_split.json"
+  },
+  "hyperparameters": {
+    "optimizer": "AdamW",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "lr_scheduler": "CosineAnnealingLR(T_max=4)",
+    "loss_function": "CrossEntropyLoss",
+    "batch_size": 64,
+    "epochs": 4,
+    "input_resolution": [224, 224],
+    "normalization": {
+      "mean": [0.485, 0.456, 0.406],
+      "std": [0.229, 0.224, 0.225]
+    },
+    "data_augmentation": [
+      "Resize((224, 224))",
+      "RandomHorizontalFlip(p=0.5)",
+      "RandomRotation(degrees=15)",
+      "ColorJitter(brightness=0.1, contrast=0.1)",
+      "ToTensor()",
+      "Normalize()"
+    ]
+  },
+  "hardware_environment": {
+    "device": "cpu",
+    "processor": "Intel(R) Core(TM) Ultra 5 125H",
+    "cpu_architecture": "x86_64 (Meteor Lake)",
+    "threads_utilized": 14,
+    "acceleration_instruction_sets": ["AVX2", "FMA", "VNNI", "oneDNN"],
+    "integrated_gpu": "Intel Meteor Lake-P [Intel Arc Graphics]",
+    "npu": "Intel Core Ultra NPU (rev 04)",
+    "npu_note": "NPU is an inference-only forward-pass accelerator; training executed on 14-thread CPU with oneDNN vectorization.",
+    "os": "Linux 6.x (Arch-based Omarchy)",
+    "python_version": "3.11.18",
+    "frameworks": {
+      "torch": "2.15.0+cu132",
+      "torchvision": "0.29.2",
+      "executorch": "1.6.0",
+      "numpy": "2.4.6",
+      "pillow": "13.0.0"
+    }
+  },
+  "training_metrics": {
+    "epoch_history": [
+      {
+        "epoch": 1,
+        "train_accuracy_pct": 81.94,
+        "val_accuracy_pct": 91.35
+      },
+      {
+        "epoch": 2,
+        "train_accuracy_pct": 92.63,
+        "val_accuracy_pct": 93.47
+      },
+      {
+        "epoch": 3,
+        "train_accuracy_pct": 94.59,
+        "val_accuracy_pct": 93.96
+      },
+      {
+        "epoch": 4,
+        "train_accuracy_pct": 96.63,
+        "val_accuracy_pct": 95.27
+      }
+    ],
+    "final_train_accuracy_pct": 96.63,
+    "final_val_accuracy_pct": 95.27,
+    "wall_clock_time_seconds": 215.4
+  },
+  "artifacts": {
+    "pytorch_weights": {
+      "path": "mobilenetv2_waste.pth",
+      "size_bytes": 9169675,
+      "sha256": "dea2355f17dc64cfd837ff846e7c5f8cceb9ff65f023ee29b654ca0354fb4a65"
+    },
+    "executorch_model": {
+      "path": "waste_classifier.pte",
+      "dialect": "ExecuTorch Edge Dialect",
+      "delegate": "XNNPACK",
+      "partitioner": "XnnpackPartitioner",
+      "target_hardware": "ARM64 (Raspberry Pi 3/4/5) & x86_64 edge CPU",
+      "size_bytes": 8900888,
+      "sha256": "cc5e3bb72ed67fd0e89747cf54809f4fa01c335bd1355a2f82db6e623855a8a0"
+    },
+    "labels": {
+      "path": "labels.txt",
+      "size_bytes": 34,
+      "sha256": "31827b442a8cd9e5c791519bc9fd51e09ec9b047af482063b838c3cd2bc46d37"
+    },
+    "test_split": {
+      "path": "test_split.json",
+      "size_bytes": 43588,
+      "sha256": "d6d1a473b4bba97c1ddf1b7b27caa4ebf4642deace506176476eb36d458b03a2",
+      "held_out_count": 613
+    }
+  }
+}

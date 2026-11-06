@@ -18,8 +18,12 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 import numpy as np
-import psutil
 from PIL import Image
+
+try:
+    import psutil
+except ImportError:
+    psutil = None
 
 try:
     import executorch.extension.pybindings.portable_lib as exec_lib
@@ -54,7 +58,9 @@ def preprocess(image_path: str) -> np.ndarray:
 
 def get_ram_mb() -> float:
     """Returns current process Resident Set Size in MB."""
-    return psutil.Process(os.getpid()).memory_info().rss / (1024 * 1024)
+    if psutil is not None:
+        return psutil.Process(os.getpid()).memory_info().rss / (1024 * 1024)
+    return 0.0
 
 
 def collect_images(
@@ -104,9 +110,13 @@ def collect_images(
 
 
 def main():
+    default_model = "models/waste_classifier.pte" if os.path.exists("models/waste_classifier.pte") else "waste_classifier.pte"
+    default_labels = "models/labels.txt" if os.path.exists("models/labels.txt") else "labels.txt"
+    default_test_split = "configs/test_split.json" if os.path.exists("configs/test_split.json") else ("test_split.json" if os.path.exists("test_split.json") else None)
+
     parser = argparse.ArgumentParser(description="Evaluate ExecuTorch compiled model on edge device.")
-    parser.add_argument("--model", default="waste_classifier.pte", help="Path to .pte model")
-    parser.add_argument("--labels", default="labels.txt", help="Path to labels.txt")
+    parser.add_argument("--model", default=default_model, help="Path to .pte model")
+    parser.add_argument("--labels", default=default_labels, help="Path to labels.txt")
     parser.add_argument(
         "--data-dir",
         default=None,
@@ -114,11 +124,45 @@ def main():
     )
     parser.add_argument(
         "--test-split",
-        default="test_split.json" if os.path.exists("test_split.json") else None,
+        default=default_test_split,
         help="Path to test_split.json for strictly held-out evaluation",
     )
+    parser.add_argument(
+        "--cores",
+        default="0,1",
+        help="CPU cores to bind process to (e.g., '0,1' for 2 cores, '0' for 1 core, 'all' for unconstrained)",
+    )
+    parser.add_argument(
+        "--nice",
+        type=int,
+        default=10,
+        help="Process niceness (0 to 19, higher = lower priority for system responsiveness)",
+    )
+    parser.add_argument(
+        "--delay",
+        type=float,
+        default=0.05,
+        help="Delay in seconds between inferences to throttle CPU duty cycle (default: 0.05s)",
+    )
+    parser.add_argument("--mode", default=None, help="Name of operational profile (e.g. max, balanced, eco)")
     parser.add_argument("--limit", type=int, default=None, help="Optional max number of images to evaluate")
     args = parser.parse_args()
+
+    # Apply core pinning and scheduling priority on Linux
+    if hasattr(os, "sched_setaffinity") and args.cores and args.cores.lower() != "all":
+        try:
+            core_ids = {int(c.strip()) for c in args.cores.split(",")}
+            os.sched_setaffinity(0, core_ids)
+            print(f"[*] CPU Affinity set: pinned to core(s) {sorted(list(core_ids))}")
+        except Exception as e:
+            print(f"[!] Warning: Could not set CPU affinity: {e}")
+
+    if hasattr(os, "nice") and args.nice is not None:
+        try:
+            os.nice(args.nice)
+            print(f"[*] Process niceness set to {args.nice}")
+        except Exception as e:
+            print(f"[!] Warning: Could not set niceness: {e}")
 
     # Determine data directory
     data_dir = args.data_dir
@@ -193,6 +237,9 @@ def main():
         outputs = module.run_method("forward", (tensor,))
         lat_ms = (time.perf_counter() - t_start) * 1000
         latencies.append(lat_ms)
+
+        if args.delay > 0:
+            time.sleep(args.delay)
 
         logits = np.array(outputs[0])[0]
         pred_idx = int(np.argmax(logits))

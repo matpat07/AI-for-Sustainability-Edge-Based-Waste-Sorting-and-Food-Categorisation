@@ -1,0 +1,93 @@
+{
+  "benchmark_version": "2.1.0",
+  "audit_id": "audit_infer_20261106_v2_1_0_raspberry_pi_modes",
+  "created_at_utc": "2026-11-06T08:58:00Z",
+  "created_at_local": "2026-11-06T14:28:00+05:30",
+  "platform": {
+    "device": "Raspberry Pi 3B+ / 4 (Offline Edge)",
+    "host": "parth@192.168.1.11",
+    "architecture": "aarch64 (ARM64 Cortex-A53)",
+    "os": "Debian GNU/Linux 13 (trixie) aarch64",
+    "runtime": "ExecuTorch v1.6.0 (XNNPACK CPU Backend)",
+    "test_split_file": "test_split.json",
+    "total_images_evaluated": 613
+  },
+  "model": {
+    "name": "mobilenetv2_waste_4class",
+    "artifact": "waste_classifier.pte",
+    "sha256": "cc5e3bb72ed67fd0e89747cf54809f4fa01c335bd1355a2f82db6e623855a8a0",
+    "model_size_mb": 8.48,
+    "num_classes": 4,
+    "classes": ["biodegradable", "glass", "metal", "plastic"]
+  },
+  "accuracy_summary": {
+    "total_evaluated": 613,
+    "overall_exact_accuracy": "584/613 (95.27%)",
+    "societal_bin_accuracy": "612/613 (99.84%)",
+    "per_class": {
+      "biodegradable": { "correct": 129, "total": 130, "accuracy_pct": 99.23 },
+      "glass": { "correct": 153, "total": 163, "accuracy_pct": 93.87 },
+      "metal": { "correct": 169, "total": 173, "accuracy_pct": 97.69 },
+      "plastic": { "correct": 133, "total": 147, "accuracy_pct": 90.48 }
+    }
+  },
+  "modes": {
+    "max": {
+      "name": "MAX Mode (Unconstrained)",
+      "command": "./run_edge.sh eval --max",
+      "cpu_cores_pinned": "All 4 Cores (unconstrained)",
+      "process_nice": 10,
+      "inter_frame_delay_s": 0.0,
+      "cpu_cap_pct": 100,
+      "estimated_avg_power_w": 5.3,
+      "estimated_current_ma": 1060,
+      "energy_per_inference_joules": 0.414,
+      "total_wall_time_s": 62.7,
+      "average_latency_ms": 78.15,
+      "median_latency_ms": 76.00,
+      "p95_latency_ms": 86.73,
+      "min_latency_ms": 71.49,
+      "max_latency_ms": 124.20,
+      "throughput_fps": 12.8,
+      "peak_ram_mb": 73.63
+    },
+    "balanced": {
+      "name": "BALANCED Mode (2 Cores Throttled)",
+      "command": "./run_edge.sh eval --balanced",
+      "cpu_cores_pinned": "Cores 0, 1 (taskset -c 0,1)",
+      "process_nice": 10,
+      "inter_frame_delay_s": 0.05,
+      "cpu_cap_pct": 50,
+      "estimated_avg_power_w": 3.4,
+      "estimated_current_ma": 680,
+      "energy_per_inference_joules": 0.317,
+      "total_wall_time_s": 72.2,
+      "average_latency_ms": 93.73,
+      "median_latency_ms": 93.28,
+      "p95_latency_ms": 96.54,
+      "min_latency_ms": 92.75,
+      "max_latency_ms": 150.36,
+      "throughput_fps": 10.7,
+      "peak_ram_mb": 76.12
+    },
+    "eco": {
+      "name": "ECO Mode (1 Core Ultra-Low Power)",
+      "command": "./run_edge.sh eval --eco",
+      "cpu_cores_pinned": "Core 0 (taskset -c 0)",
+      "process_nice": 10,
+      "inter_frame_delay_s": 0.10,
+      "cpu_cap_pct": 25,
+      "estimated_avg_power_w": 2.6,
+      "estimated_current_ma": 520,
+      "energy_per_inference_joules": 0.426,
+      "total_wall_time_s": 114.6,
+      "average_latency_ms": 162.94,
+      "median_latency_ms": 162.53,
+      "p95_latency_ms": 164.63,
+      "min_latency_ms": 161.96,
+      "max_latency_ms": 218.85,
+      "throughput_fps": 6.1,
+      "peak_ram_mb": 73.58
+    }
+  }
+}
