@@ -31,17 +31,13 @@ env/
 .pytest_cache/
 
 # Allow audit and documentation visual evidence images
-!audits/**/*.png
-!audits/**/*.jpg
-!audits/**/*.jpeg
-!audits/*.png
-!audits/*.jpg
+
 # Exported ExecuTorch models
-*.pte
+.pte
 
 # Local configuration and secrets
 .env
 .env.*
 !.env.example
-*.pth
-*.pte
+.pth
+.pte
