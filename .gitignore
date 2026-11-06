@@ -29,6 +29,13 @@ env/
 *.tif
 *.tiff
 .pytest_cache/
+
+# Allow audit and documentation visual evidence images
+!audits/**/*.png
+!audits/**/*.jpg
+!audits/**/*.jpeg
+!audits/*.png
+!audits/*.jpg
 # Exported ExecuTorch models
 *.pte
 
