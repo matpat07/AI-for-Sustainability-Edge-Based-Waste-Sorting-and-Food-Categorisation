@@ -129,9 +129,9 @@ def main() -> None:
     # 1. Create .venv (standard library, zero host dependencies)
     python_bin = create_virtual_environment(venv_dir)
 
-    # 2. Install torch and kagglehub inside .venv
+    # 2. Install torch, kagglehub, and executorch inside .venv
     # kagglehub allows 100% anonymous, keyless downloads of public Kaggle datasets
-    install_packages(python_bin, ["torch", "kagglehub"])
+    install_packages(python_bin, ["torch", "torchvision", "kagglehub", "executorch"])
 
     # 3. Download dataset without credentials & sync to dataset/
     download_dataset_anonymously(python_bin, dataset_slug, dataset_dir)
